@@ -1,0 +1,123 @@
+*      {  
+          margin: 0;
+          padding: 0;
+}
+html {
+          font-family: cursive;
+          text-align: center;
+}
+nav {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          padding: 25px;
+          border-bottom: 2px solid lightgray;
+}
+nav a {
+          margin: 25px;
+          text-decoration: none;
+}
+nav a:hover {
+          color: black;
+}
+nav a.active {
+          color: black;
+}
+header {
+          padding-top: calc(50px + 1rem + 2px);
+}
+h1 {
+          margin-top: 100px;
+          font-size: 3.7rem;
+          font-weight: bold;
+          line-height: 1.2em;
+}
+h1 + p {
+          width: 800px;
+          margin: 35px auto;
+}
+#cta {
+          text-decoration: none;
+          text-transform: uppercase;
+          background: linear-gradient(to right, #DF86FF, #722CFF);
+          display: inline-block;
+          padding: 1em 3em;
+          font-weight: 600;
+          border-radius: 1000px;
+          transition: 150ms ease;
+}
+#cta:hover {
+          scale: 1.1;
+}
+.video-player {
+          margin-top: 50px;
+          width: min(1100px, 100%);
+          aspect-ratio: 16 / 9;
+          border-radius: 30px;
+}
+.product-container {
+          margin-top: 30px;
+}
+.item {
+          box-sizing: border-box;
+          background-color: grey;
+          width: 300px;
+          height: 300px;
+          display: inline-block;
+          margin: 0 20px;
+          margin-bottom: 20px;
+          align-content: center;
+          padding: 20px;
+          border-radius: 20px;
+}
+.item + h2 {
+          margin-top: 20px;
+}
+.item:first-child {
+          background-color: #0071ff;
+          color: whitesmoke;
+}
+.item:nth-child(2) {
+          background-color: #722CFF;
+          color: whitesmoke;
+}
+.item:nth-child(3) {
+          background-color: #DF86FF;
+          color: whitesmoke;
+}
+.item:nth-child(4) {
+          background-color: #ebedf5;
+          color: #0071ff;
+}
+.item:nth-child(5) {
+          background-color: #ebedf5;
+          color: #DF86FF;
+}
+.item:last-child {
+          background-color: lightgrey;
+          color: #722CFF;
+}
+form {
+          margin-top: 30px;
+}
+input {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 15px;
+          border-radius: 30px;
+}
+input[type="text"], input[type="password"] {
+          padding: 5px 20px;
+          width: 400px;
+          height: 40px;
+          border: none;
+          background-color: #ebedf5;
+}
+input[type="submit"] {
+          width: 200px;
+          padding: 10px;
+          background-color: #0071ff;
+          color: white;
+          font-weight: 600;
+          border: none;
+}
